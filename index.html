@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b14">
+  <meta name="description" content="Centro legal de NexoraUnk Tools: política de privacidad, cookies y condiciones de uso.">
+  <title>Centro legal | NexoraUnk Tools</title>
+  <style>
+    :root {
+      --bg: #080b14;
+      --panel: rgba(18, 24, 41, .82);
+      --panel-hover: #171f35;
+      --text: #f4f7ff;
+      --muted: #a6b0c8;
+      --accent: #7c5cff;
+      --accent2: #20d9d2;
+      --line: rgba(153, 169, 208, .18);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; min-height: 100vh; color: var(--text);
+      background:
+        radial-gradient(ellipse at 15% 0%, rgba(124,92,255,.20), transparent 38%),
+        radial-gradient(ellipse at 95% 18%, rgba(32,217,210,.10), transparent 32%),
+        var(--bg);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(1060px, calc(100% - 36px)); margin: 0 auto; }
+    header { padding: 25px 0; border-bottom: 1px solid var(--line); }
+    .nav { display:flex; align-items:center; justify-content:space-between; gap:18px; }
+    .brand { display:flex; align-items:center; gap:12px; font-weight:850; letter-spacing:.3px; }
+    .logo {
+      display:grid; place-items:center; width:42px; height:42px; border-radius:13px;
+      background: linear-gradient(135deg, var(--accent), #4a3ab4 60%, var(--accent2));
+      box-shadow: 0 8px 28px rgba(124,92,255,.25); font-weight:950; color:white;
+    }
+    .brand small { display:block; color:var(--muted); font-size:11px; font-weight:650; letter-spacing:2px; text-transform:uppercase; }
+    .back { color:var(--muted); font-size:14px; transition:color .2s; }
+    .back:hover { color:var(--accent2); }
+    main { padding: 76px 0 82px; }
+    .eyebrow { color:var(--accent2); text-transform:uppercase; letter-spacing:2.5px; font-size:12px; font-weight:800; }
+    h1 { margin:12px 0 16px; max-width:760px; font-size:clamp(36px, 6vw, 62px); line-height:1.06; letter-spacing:-2px; }
+    h1 span { background:linear-gradient(90deg, #a99aff, var(--accent2)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+    .intro { max-width:680px; color:var(--muted); font-size:17px; margin:0; }
+    .grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:16px; margin-top:42px; }
+    .card {
+      position:relative; display:flex; flex-direction:column; min-height:240px; padding:24px;
+      border:1px solid var(--line); border-radius:20px; background:var(--panel);
+      backdrop-filter:blur(12px); transition:transform .2s, border-color .2s, background .2s;
+    }
+    .card:hover { transform:translateY(-5px); border-color:rgba(124,92,255,.65); background:var(--panel-hover); }
+    .icon { display:grid; place-items:center; width:48px; height:48px; border-radius:15px; background:rgba(124,92,255,.14); color:#b5a8ff; font-size:23px; margin-bottom:22px; }
+    .card:nth-child(2) .icon { background:rgba(32,217,210,.12); color:var(--accent2); }
+    .card:nth-child(3) .icon { background:rgba(255,190,92,.12); color:#ffca78; }
+    h2 { font-size:19px; margin:0 0 8px; letter-spacing:-.3px; }
+    .card p { margin:0 0 24px; color:var(--muted); font-size:14px; }
+    .link { margin-top:auto; display:inline-flex; align-items:center; gap:8px; color:#c9c0ff; font-size:14px; font-weight:750; }
+    .link span { transition:transform .2s; }
+    .card:hover .link span { transform:translateX(4px); }
+    .note { margin-top:28px; padding:18px 20px; border:1px solid var(--line); border-radius:15px; color:var(--muted); font-size:13px; }
+    .note strong { color:var(--text); }
+    footer { border-top:1px solid var(--line); padding:24px 0; color:var(--muted); font-size:13px; }
+    .foot { display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+    @media (max-width:760px) { .grid { grid-template-columns:1fr; } .card { min-height:205px; } main { padding:55px 0 60px; } h1 { letter-spacing:-1.2px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="https://nexoraunktools.blogspot.com/" aria-label="NexoraUnk Tools, inicio">
+        <span class="logo">N</span>
+        <span>NexoraUnk <small>TOOLS</small></span>
+      </a>
+      <a class="back" href="https://nexoraunktools.blogspot.com/">← Volver al sitio</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="eyebrow">Transparencia · Seguridad · Control</div>
+    <h1>Centro <span>legal</span></h1>
+    <p class="intro">La información clara también forma parte de una buena herramienta. Consultá cómo funciona NexoraUnk Tools, qué datos pueden intervenir y cuáles son las condiciones de uso.</p>
+
+    <section class="grid" aria-label="Documentos legales">
+      <a class="card" href="https://sites.google.com/view/legalesnexoraunktools/página-principal?authuser=1">
+        <div class="icon" aria-hidden="true">◈</div>
+        <h2>Política de privacidad</h2>
+        <p>Conocé qué información puede recopilarse, cómo se utiliza y qué opciones tenés para gestionar tus datos.</p>
+        <span class="link">Leer política <span>↗</span></span>
+      </a>
+
+      <a class="card" href="https://sites.google.com/view/politicadecookiesyservicios/página-principal?authuser=1">
+        <div class="icon" aria-hidden="true">⌘</div>
+        <h2>Cookies y servicios externos</h2>
+        <p>Información sobre cookies, contenido integrado y servicios de terceros que podrían utilizarse en el sitio.</p>
+        <span class="link">Consultar información <span>↗</span></span>
+      </a>
+
+      <a class="card" href="https://sites.google.com/view/terminos-deuso/página-principal?authuser=1">
+        <div class="icon" aria-hidden="true">◎</div>
+        <h2>Términos de uso</h2>
+        <p>Revisá las pautas generales para utilizar las herramientas y los contenidos de NexoraUnk Tools.</p>
+        <span class="link">Leer términos <span>↗</span></span>
+      </a>
+    </section>
+
+    <div class="note">
+      <strong>Importante:</strong> <code>No te olvides de suscribirte al canal de youtube.</code>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <span>© <span id="year">2026</span> NexoraUnk Tools</span>
+      <span>Hecho para una web más simple y transparente.</span>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
